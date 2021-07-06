@@ -30,4 +30,53 @@
     border-color: black;
     background-color: #fff500;
     font-family: 'montserrat';
+    outline: none;
+}
+
+.content {
+    position: absolute;
+    width: 260px;
+    height: 311px;
+    border: 2px solid #fff500;
+    border-radius: 10px;
+    top: 120px;
+    left: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.url-area {
+    width: 238px;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.c-link {
+    text-decoration: 1px underline yellow;
+}
+
+.url-area:hover {
+    color: blue;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scroll-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(128, 128, 128, 0.279);
+    border-radius: 10px;
 }
